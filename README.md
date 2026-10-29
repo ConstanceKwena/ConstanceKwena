@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🌷 Hello, I'm Constance! 🌷
+# 🌷 Hello, I'm Kwena! 🌷
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=C084FC&center=true&vCenter=true&width=550&lines=Welcome+to+my+GitHub!+%F0%9F%92%9C;Learning+one+line+at+a+time+%E2%9C%A8;Turning+ideas+into+reality+%F0%9F%8C%B8;Code.+Create.+Grow.+Repeat.)
 
