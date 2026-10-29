@@ -19,9 +19,9 @@ jobs:
         with:
           github_user_name: ConstanceKwena
           outputs: |
-            dist/github-snake.svg?color_snake=%23C084FC&color_dots=%23161B22,%23FCE7F3,%23F9A8D4,%23C4B5FD,%2393C5FD,%23A78BFA
+            dist/github-snake.svg?color_snake=%23C084FC&color_dots=%23FFF7FB,%23FCE7F3,%23F9A8D4,%23C4B5FD,%2393C5FD
 
-      - name: Publish snake animation
+      - name: Publish snake
         uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
           target_branch: output
