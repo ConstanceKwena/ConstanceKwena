@@ -1,10 +1,10 @@
 
-name: Generate Snake Animation
+name: Generate Pastel Snake
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
 
 permissions:
   contents: write
@@ -12,16 +12,16 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Generate snake animation
+      - name: Generate pastel snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ConstanceKwena
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=%23C084FC&color_dots=%23161B22,%23FCE7F3,%23F9A8D4,%23C4B5FD,%2393C5FD,%23A78BFA
 
-      - name: Publish snake animation
+      - name: Publish snake
         uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
           target_branch: output
