@@ -21,7 +21,7 @@ jobs:
           outputs: |
             dist/github-snake.svg?color_snake=%23C084FC&color_dots=%23161B22,%23FCE7F3,%23F9A8D4,%23C4B5FD,%2393C5FD,%23A78BFA
 
-      - name: Publish snake
+      - name: Publish snake animation
         uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
           target_branch: output
