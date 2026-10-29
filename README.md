@@ -15,7 +15,7 @@
 
 ## 🌸 A Little About Me
 
-Hey there! 👋 I'm Constance, a curious developer who loves bringing ideas to life through code.
+Hey there! 👋 I'm Kwena, a curious developer who loves bringing ideas to life through code.
 
 I enjoy experimenting, solving problems, and learning something new with every project I build.
 
